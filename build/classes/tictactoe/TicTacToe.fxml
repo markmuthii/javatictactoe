@@ -14,7 +14,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="320.0" prefWidth="500.0" style="-fx-background-color: #2e2e2e;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.TicTacToeController">
    <children>
-      <AnchorPane id="AnchorPane" fx:id="levelAnchorPane" prefHeight="320.0" prefWidth="500.0" style="-fx-background-color: #2e2e2e;" visible="false">
+      <AnchorPane id="AnchorPane" fx:id="levelAnchorPane" prefHeight="320.0" prefWidth="500.0" style="-fx-background-color: #2e2e2e;">
          <children>
             <Button fx:id="levelNextBtn" layoutX="199.0" layoutY="236.0" mnemonicParsing="false" onAction="#levelSelectBtnAction" prefHeight="36.0" prefWidth="103.0" style="-fx-background-radius: 5em;" text="Next">
                <font>
@@ -75,7 +75,7 @@
             <Font name="Bauhaus 93" size="40.0" />
          </font>
       </Label>
-      <AnchorPane fx:id="gameAnchorPane" prefHeight="320.0" prefWidth="500.0">
+      <AnchorPane fx:id="gameAnchorPane" prefHeight="320.0" prefWidth="500.0" visible="false">
          <children>
             <GridPane fx:id="playGrid" gridLinesVisible="true" layoutY="51.0" prefHeight="269.0" prefWidth="325.0">
               <columnConstraints>
